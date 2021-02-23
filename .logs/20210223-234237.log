@@ -1,0 +1,6 @@
+2021-02-23 23:42:37 DEBUG request log not activated
+2021-02-23 23:42:37 INFO  Dynatrace Monitoring as Code v1.4.0
+2021-02-23 23:42:37 DEBUG Reading projects...
+2021-02-23 23:42:37 DEBUG   project - projects\baseconfig
+2021-02-23 23:42:37 DEBUG Processing file: projects\baseconfig\app-detection-rule\config.yaml
+2021-02-23 23:42:37 ERROR Could not create configlh-hipster-shop: loading config projects\baseconfig\lh-hipster-shop failed with open projects\baseconfig\app-detection-rule\config.json: The system cannot find the file specified.

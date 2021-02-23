@@ -1,0 +1,7 @@
+config:
+  - lh-hipster-shop: "rule.json"
+  
+lh-hipster-shop:
+  - name: "/projects/baseconfig/application/lh-hipster-shop.name"
+  - application_id: "/projects/baseconfig/application/lh-hipster-shop.id"
+  - pattern: "34.72.206.25"

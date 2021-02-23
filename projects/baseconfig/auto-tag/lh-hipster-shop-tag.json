@@ -1,5 +1,5 @@
 {
-  "name": "lh-hipster-shop",
+  "name": "{{ .name }}",
   "rules": [
     {
       "type": "PROCESS_GROUP",

@@ -1,0 +1,31 @@
+2021-02-23 23:22:53 DEBUG request log not activated
+2021-02-23 23:22:53 INFO  Dynatrace Monitoring as Code v1.4.0
+2021-02-23 23:22:53 DEBUG Reading projects...
+2021-02-23 23:22:53 DEBUG   project - projects\baseconfig
+2021-02-23 23:22:53 DEBUG Processing file: projects\baseconfig\app-detection-rule\config.yaml
+2021-02-23 23:22:53 DEBUG Processing file: projects\baseconfig\auto-tag\tags.yaml
+2021-02-23 23:22:53 DEBUG Processing file: projects\baseconfig\conditional-naming-processgroup\rules.yaml
+2021-02-23 23:22:53 DEBUG Processing file: projects\baseconfig\conditional-naming-service\rules.yaml
+2021-02-23 23:22:53 DEBUG 		projects\baseconfig\conditional-naming-service\prepend_hipster_shop_name
+2021-02-23 23:22:53 DEBUG 		projects\baseconfig\conditional-naming-processgroup\prepend_hipster_shop_name
+2021-02-23 23:22:53 DEBUG 		projects\baseconfig\auto-tag\lh_hipster_shop_tag
+2021-02-23 23:22:53 DEBUG 		projects\baseconfig\app-detection-rule\lh-hipster-shop
+2021-02-23 23:22:53 DEBUG Sorting projects...
+2021-02-23 23:22:53 INFO  Executing projects in this order: 
+2021-02-23 23:22:53 INFO  	1: projects\baseconfig (4 configs)
+2021-02-23 23:22:53 INFO  Processing environment mac_training_environment...
+2021-02-23 23:22:53 INFO  	Processing project projects\baseconfig...
+2021-02-23 23:22:53 DEBUG 		Deploying configs in this order: 
+2021-02-23 23:22:53 DEBUG 			1: projects\baseconfig\conditional-naming-service\prepend-hipster-shop-name.json
+2021-02-23 23:22:53 DEBUG 			2: projects\baseconfig\conditional-naming-processgroup\prepend-hipster-shop-name.json
+2021-02-23 23:22:53 DEBUG 			3: projects\baseconfig\auto-tag\lh-hipster-shop-tag.json
+2021-02-23 23:22:53 DEBUG 			4: projects\baseconfig\app-detection-rule\rule.json
+2021-02-23 23:22:53 DEBUG 		Applying config projects\baseconfig\conditional-naming-service\prepend-hipster-shop-name.json
+2021-02-23 23:22:55 DEBUG 			Updated existing object for Prepend Hipster Shop Name to Service (7c50b9d0-80e8-49ca-9fbb-916c09fa53c8)
+2021-02-23 23:22:55 DEBUG 		Applying config projects\baseconfig\conditional-naming-processgroup\prepend-hipster-shop-name.json
+2021-02-23 23:22:56 DEBUG 			Updated existing object for Prepend Hipster Shop Name to PG (46e3e352-71c9-4b83-af93-6da3abcae1b7)
+2021-02-23 23:22:56 DEBUG 		Applying config projects\baseconfig\auto-tag\lh-hipster-shop-tag.json
+2021-02-23 23:22:56 DEBUG 			Updated existing object for lh-hipster-shop (2fd9ee95-4712-4d0b-8e10-723700cb7d19)
+2021-02-23 23:22:56 DEBUG 		Applying config projects\baseconfig\app-detection-rule\rule.json
+2021-02-23 23:22:56 ERROR Deployment to mac_training_environment failed with error Failed to upsert DT object LH Hipster Shop (HTTP 400)!
+    Response was: {"error":{"code":400,"message":"Constraints violated.","constraintViolations":[{"path":"applicationIdentifier","message":"referenced application does not exist or is not an auto-injected application","parameterLocation":"PAYLOAD_BODY","location":null}]}}, responsible config: projects\baseconfig\app-detection-rule\rule.json

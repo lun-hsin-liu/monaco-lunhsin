@@ -1,0 +1,8 @@
+2021-02-23 23:22:24 DEBUG request log not activated
+2021-02-23 23:22:24 INFO  Dynatrace Monitoring as Code v1.4.0
+2021-02-23 23:22:24 DEBUG Reading projects...
+2021-02-23 23:22:24 DEBUG   project - projects\baseconfig
+2021-02-23 23:22:24 DEBUG Processing file: projects\baseconfig\app-detection-rule\config.yaml
+2021-02-23 23:22:24 DEBUG Processing file: projects\baseconfig\auto-tag\tags.yaml
+2021-02-23 23:22:24 DEBUG Processing file: projects\baseconfig\conditional-naming-processgroup\rules.yaml
+2021-02-23 23:22:24 DEBUG Processing file: projects\baseconfig\conditional-naming-service\rules.yaml
