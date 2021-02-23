@@ -1,0 +1,30 @@
+{
+  "name": "lh-hipster-shop",
+  "rules": [
+    {
+      "type": "PROCESS_GROUP",
+      "enabled": true,
+      "valueFormat": null,
+      "propagationTypes": [
+        "PROCESS_GROUP_TO_SERVICE",
+	"PROCESS_GROUP_TO_HOST"
+      ],
+      "conditions": [
+        {
+          "key": {
+            "attribute": "HOST_TAGS"
+          },
+          "comparisonInfo": {
+            "type": "TAG",
+            "operator": "TAG_KEY_EQUALS",
+            "value": {
+              "context": "GOOGLE_CLOUD",
+              "key": "gke-lunhsin-monaco2-5c593a74-node"
+            },
+            "negate": false
+          }
+        }
+      ]
+    }
+  ]
+}

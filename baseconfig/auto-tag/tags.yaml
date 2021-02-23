@@ -1,0 +1,4 @@
+config:
+  - lh_hipster_shop_tag: "lh-hipster-shop-tag.json"
+lh_hipster_shop_tag:
+  - name: "lh-hipster-shop"

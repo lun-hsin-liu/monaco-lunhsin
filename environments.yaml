@@ -1,0 +1,4 @@
+mac_training_environment:
+  - name: "mac_training_environment"
+  - env-url: "https://ark81438.live.dynatrace.com/"
+  - env-token-name: "TOKEN_MAC_TRAINING_ENVIRONMENT"

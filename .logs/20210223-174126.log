@@ -1,0 +1,20 @@
+2021-02-23 17:41:26 DEBUG request log not activated
+2021-02-23 17:41:26 INFO  Dynatrace Monitoring as Code v1.4.0
+2021-02-23 17:41:26 DEBUG Reading projects...
+2021-02-23 17:41:26 DEBUG   project - baseconfig
+2021-02-23 17:41:26 DEBUG Processing file: baseconfig\auto-tag\tags.yaml
+2021-02-23 17:41:26 DEBUG 		baseconfig\auto-tag\lh_hipster_shop_tag
+2021-02-23 17:41:26 DEBUG   project - projects
+2021-02-23 17:41:26 DEBUG Sorting projects...
+2021-02-23 17:41:26 INFO  Executing projects in this order: 
+2021-02-23 17:41:26 INFO  	1: projects (0 configs)
+2021-02-23 17:41:26 INFO  	2: baseconfig (1 configs)
+2021-02-23 17:41:26 INFO  Processing environment mac_training_environment...
+2021-02-23 17:41:26 INFO  	Processing project projects...
+2021-02-23 17:41:26 DEBUG 		Deploying configs in this order: 
+2021-02-23 17:41:26 INFO  	Processing project baseconfig...
+2021-02-23 17:41:26 DEBUG 		Deploying configs in this order: 
+2021-02-23 17:41:26 DEBUG 			1: baseconfig\auto-tag\lh-hipster-shop-tag.json
+2021-02-23 17:41:26 DEBUG 		Applying config baseconfig\auto-tag\lh-hipster-shop-tag.json
+2021-02-23 17:41:27 ERROR Deployment to mac_training_environment failed with error Failed to upsert DT object lh-hipster-shop (HTTP 400)!
+    Response was: {"error":{"code":400,"message":"Constraints violated.","constraintViolations":[{"path":"rules[0].conditions[0].comparisonInfo.caseSensitive","message":"caseSensitive must be null if the operator 'EXISTS' is specified, for any other operator it must be set.","parameterLocation":"PAYLOAD_BODY","location":null},{"path":"rules[0].conditions[0].comparisonInfo","message":"The specified comparison info is not applicable to the specified attribute. Please use the comparison info for the discriminator 'TAG' for the attribute 'HOST_TAGS'.","parameterLocation":"PAYLOAD_BODY","location":null}]}}, responsible config: baseconfig\auto-tag\lh-hipster-shop-tag.json

@@ -1,0 +1,20 @@
+2021-02-23 17:45:12 DEBUG request log not activated
+2021-02-23 17:45:12 INFO  Dynatrace Monitoring as Code v1.4.0
+2021-02-23 17:45:12 DEBUG Reading projects...
+2021-02-23 17:45:12 DEBUG   project - baseconfig
+2021-02-23 17:45:12 DEBUG Processing file: baseconfig\auto-tag\tags.yaml
+2021-02-23 17:45:12 DEBUG 		baseconfig\auto-tag\lh_hipster_shop_tag
+2021-02-23 17:45:12 DEBUG   project - projects
+2021-02-23 17:45:12 DEBUG Sorting projects...
+2021-02-23 17:45:12 INFO  Executing projects in this order: 
+2021-02-23 17:45:12 INFO  	1: projects (0 configs)
+2021-02-23 17:45:12 INFO  	2: baseconfig (1 configs)
+2021-02-23 17:45:12 INFO  Processing environment mac_training_environment...
+2021-02-23 17:45:12 INFO  	Processing project projects...
+2021-02-23 17:45:12 DEBUG 		Deploying configs in this order: 
+2021-02-23 17:45:12 INFO  	Processing project baseconfig...
+2021-02-23 17:45:12 DEBUG 		Deploying configs in this order: 
+2021-02-23 17:45:12 DEBUG 			1: baseconfig\auto-tag\lh-hipster-shop-tag.json
+2021-02-23 17:45:12 DEBUG 		Applying config baseconfig\auto-tag\lh-hipster-shop-tag.json
+2021-02-23 17:45:13 DEBUG 			Created new object for lh-hipster-shop (2fd9ee95-4712-4d0b-8e10-723700cb7d19)
+2021-02-23 17:45:13 INFO  Deployment finished without errors
