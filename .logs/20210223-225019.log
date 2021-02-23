@@ -1,0 +1,30 @@
+2021-02-23 22:50:19 DEBUG request log not activated
+2021-02-23 22:50:19 INFO  Dynatrace Monitoring as Code v1.4.0
+2021-02-23 22:50:19 DEBUG Reading projects...
+2021-02-23 22:50:19 DEBUG   project - baseconfig
+2021-02-23 22:50:19 DEBUG Processing file: baseconfig\auto-tag\tags.yaml
+2021-02-23 22:50:19 DEBUG Processing file: baseconfig\conditional-naming-processgroup\rules.yaml
+2021-02-23 22:50:19 DEBUG Processing file: baseconfig\conditional-naming-service\rules.yaml
+2021-02-23 22:50:19 DEBUG 		baseconfig\conditional-naming-service\prepend_hipster_shop_name
+2021-02-23 22:50:19 DEBUG 		baseconfig\conditional-naming-processgroup\prepend_hipster_shop_name
+2021-02-23 22:50:19 DEBUG 		baseconfig\auto-tag\lh_hipster_shop_tag
+2021-02-23 22:50:19 DEBUG   project - projects
+2021-02-23 22:50:19 DEBUG Sorting projects...
+2021-02-23 22:50:19 INFO  Executing projects in this order: 
+2021-02-23 22:50:19 INFO  	1: projects (0 configs)
+2021-02-23 22:50:19 INFO  	2: baseconfig (3 configs)
+2021-02-23 22:50:19 INFO  Processing environment mac_training_environment...
+2021-02-23 22:50:19 INFO  	Processing project projects...
+2021-02-23 22:50:19 DEBUG 		Deploying configs in this order: 
+2021-02-23 22:50:19 INFO  	Processing project baseconfig...
+2021-02-23 22:50:19 DEBUG 		Deploying configs in this order: 
+2021-02-23 22:50:19 DEBUG 			1: baseconfig\conditional-naming-service\prepend-hipster-shop-name.json
+2021-02-23 22:50:19 DEBUG 			2: baseconfig\conditional-naming-processgroup\prepend-hipster-shop-name.json
+2021-02-23 22:50:19 DEBUG 			3: baseconfig\auto-tag\lh-hipster-shop-tag.json
+2021-02-23 22:50:19 DEBUG 		Applying config baseconfig\conditional-naming-service\prepend-hipster-shop-name.json
+2021-02-23 22:50:20 DEBUG 			Created new object for Prepend Hipster Shop Name to Service (7c50b9d0-80e8-49ca-9fbb-916c09fa53c8)
+2021-02-23 22:50:20 DEBUG 		Applying config baseconfig\conditional-naming-processgroup\prepend-hipster-shop-name.json
+2021-02-23 22:50:21 DEBUG 			Updated existing object for Prepend Hipster Shop Name to PG (46e3e352-71c9-4b83-af93-6da3abcae1b7)
+2021-02-23 22:50:21 DEBUG 		Applying config baseconfig\auto-tag\lh-hipster-shop-tag.json
+2021-02-23 22:50:21 DEBUG 			Updated existing object for lh-hipster-shop (2fd9ee95-4712-4d0b-8e10-723700cb7d19)
+2021-02-23 22:50:21 INFO  Deployment finished without errors

@@ -1,0 +1,23 @@
+2021-02-23 23:17:12 DEBUG request log not activated
+2021-02-23 23:17:12 INFO  Dynatrace Monitoring as Code v1.4.0
+2021-02-23 23:17:12 DEBUG Reading projects...
+2021-02-23 23:17:12 DEBUG   project - projects\baseconfig
+2021-02-23 23:17:12 DEBUG Processing file: projects\baseconfig\auto-tag\tags.yaml
+2021-02-23 23:17:12 DEBUG Processing file: projects\baseconfig\conditional-naming-processgroup\rules.yaml
+2021-02-23 23:17:12 DEBUG Processing file: projects\baseconfig\conditional-naming-service\rules.yaml
+2021-02-23 23:17:12 DEBUG 		projects\baseconfig\conditional-naming-service\prepend_hipster_shop_name
+2021-02-23 23:17:12 DEBUG 		projects\baseconfig\conditional-naming-processgroup\prepend_hipster_shop_name
+2021-02-23 23:17:12 DEBUG 		projects\baseconfig\auto-tag\lh_hipster_shop_tag
+2021-02-23 23:17:12 DEBUG Sorting projects...
+2021-02-23 23:17:12 INFO  Executing projects in this order: 
+2021-02-23 23:17:12 INFO  	1: projects\baseconfig (3 configs)
+2021-02-23 23:17:12 INFO  Processing environment mac_training_environment...
+2021-02-23 23:17:12 INFO  	Processing project projects\baseconfig...
+2021-02-23 23:17:12 DEBUG 		Deploying configs in this order: 
+2021-02-23 23:17:12 DEBUG 			1: projects\baseconfig\conditional-naming-service\prepend-hipster-shop-name.json
+2021-02-23 23:17:12 DEBUG 			2: projects\baseconfig\conditional-naming-processgroup\prepend-hipster-shop-name.json
+2021-02-23 23:17:12 DEBUG 			3: projects\baseconfig\auto-tag\lh-hipster-shop-tag.json
+2021-02-23 23:17:12 DEBUG 		Validating config projects\baseconfig\conditional-naming-service\prepend-hipster-shop-name.json
+2021-02-23 23:17:12 DEBUG 		Validating config projects\baseconfig\conditional-naming-processgroup\prepend-hipster-shop-name.json
+2021-02-23 23:17:12 DEBUG 		Validating config projects\baseconfig\auto-tag\lh-hipster-shop-tag.json
+2021-02-23 23:17:12 INFO  Validation finished without errors

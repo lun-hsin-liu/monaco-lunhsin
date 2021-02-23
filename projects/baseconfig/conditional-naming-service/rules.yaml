@@ -1,0 +1,5 @@
+config:
+  - prepend_hipster_shop_name: "prepend-hipster-shop-name.json"
+  
+prepend_hipster_shop_name:
+  - name: "Prepend Hipster Shop Name to Service"
