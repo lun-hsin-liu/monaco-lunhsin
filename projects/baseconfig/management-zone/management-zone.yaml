@@ -1,0 +1,5 @@
+config:
+  - lh-hipster-shop: "config.json"
+  
+lh-hipster-shop:
+  - name: "LH Hipster Shop"
