@@ -1,0 +1,10 @@
+2021-02-23 22:43:25 DEBUG request log not activated
+2021-02-23 22:43:25 INFO  Dynatrace Monitoring as Code v1.4.0
+2021-02-23 22:43:25 DEBUG Reading projects...
+2021-02-23 22:43:25 DEBUG   project - baseconfig
+2021-02-23 22:43:25 DEBUG Processing file: baseconfig\auto-tag\tags.yaml
+2021-02-23 22:43:25 DEBUG Processing file: baseconfig\conditional-naming-processgroup\rules.yaml
+2021-02-23 22:43:25 DEBUG 		baseconfig\conditional-naming-processgroup\prepend_hipster_shop_name
+2021-02-23 22:43:25 DEBUG 		baseconfig\auto-tag\lh_hipster_shop_tag
+2021-02-23 22:43:25 DEBUG   project - projects
+2021-02-23 22:43:25 DEBUG Sorting projects...
