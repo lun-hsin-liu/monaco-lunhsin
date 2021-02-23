@@ -1,0 +1,6 @@
+delete:
+  - "auto-tag/lh-hipster-shop"
+  - "conditional-naming-processgroup/Prepend Hipster Shop Name to PG"
+  - "conditional-naming-service/Prepend Hipster Shop Name to Service"
+  - "application/LH Hipster Shop"
+  - "management-zone/LH Hipster Shop"

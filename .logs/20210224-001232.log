@@ -1,0 +1,43 @@
+2021-02-24 00:12:32 DEBUG request log not activated
+2021-02-24 00:12:32 INFO  Dynatrace Monitoring as Code v1.4.0
+2021-02-24 00:12:32 DEBUG Reading projects...
+2021-02-24 00:12:32 DEBUG   project - projects\baseconfig
+2021-02-24 00:12:32 DEBUG Processing file: projects\baseconfig\app-detection-rule\config.yaml
+2021-02-24 00:12:32 DEBUG Processing file: projects\baseconfig\application\application.yaml
+2021-02-24 00:12:32 WARN  You are using the configuration 'application', which will be deprecated in v2.0.0. Replace with type 'application-web'.
+2021-02-24 00:12:32 DEBUG Processing file: projects\baseconfig\auto-tag\tags.yaml
+2021-02-24 00:12:32 DEBUG Processing file: projects\baseconfig\conditional-naming-processgroup\rules.yaml
+2021-02-24 00:12:32 DEBUG Processing file: projects\baseconfig\conditional-naming-service\rules.yaml
+2021-02-24 00:12:32 DEBUG Processing file: projects\baseconfig\management-zone\management-zone.yaml
+2021-02-24 00:12:32 DEBUG 		projects\baseconfig\app-detection-rule\lh-hipster-shop has dep on projects\baseconfig\application\lh-hipster-shop
+2021-02-24 00:12:32 DEBUG 		projects\baseconfig\application\lh-hipster-shop
+2021-02-24 00:12:32 DEBUG 		projects\baseconfig\management-zone\lh-hipster-shop
+2021-02-24 00:12:32 DEBUG 		projects\baseconfig\conditional-naming-service\prepend_hipster_shop_name
+2021-02-24 00:12:32 DEBUG 		projects\baseconfig\conditional-naming-processgroup\prepend_hipster_shop_name
+2021-02-24 00:12:32 DEBUG 		projects\baseconfig\auto-tag\lh_hipster_shop_tag
+2021-02-24 00:12:32 DEBUG 		projects\baseconfig\app-detection-rule\lh-hipster-shop
+2021-02-24 00:12:32 DEBUG Sorting projects...
+2021-02-24 00:12:32 INFO  Executing projects in this order: 
+2021-02-24 00:12:32 INFO  	1: projects\baseconfig (6 configs)
+2021-02-24 00:12:32 INFO  Processing environment mac_training_environment...
+2021-02-24 00:12:32 INFO  	Processing project projects\baseconfig...
+2021-02-24 00:12:32 DEBUG 		Deploying configs in this order: 
+2021-02-24 00:12:32 DEBUG 			1: projects\baseconfig\application\config.json
+2021-02-24 00:12:32 DEBUG 			2: projects\baseconfig\management-zone\config.json
+2021-02-24 00:12:32 DEBUG 			3: projects\baseconfig\conditional-naming-service\prepend-hipster-shop-name.json
+2021-02-24 00:12:32 DEBUG 			4: projects\baseconfig\conditional-naming-processgroup\prepend-hipster-shop-name.json
+2021-02-24 00:12:32 DEBUG 			5: projects\baseconfig\auto-tag\lh-hipster-shop-tag.json
+2021-02-24 00:12:32 DEBUG 			6: projects\baseconfig\app-detection-rule\rule.json
+2021-02-24 00:12:32 DEBUG 		Applying config projects\baseconfig\application\config.json
+2021-02-24 00:12:33 DEBUG 			Created new object for LH Hipster Shop (APPLICATION-913B6C8D3F5762A1)
+2021-02-24 00:12:33 DEBUG 		Applying config projects\baseconfig\management-zone\config.json
+2021-02-24 00:12:33 DEBUG 			Created new object for LH Hipster Shop (-9183567051149866911)
+2021-02-24 00:12:33 DEBUG 		Applying config projects\baseconfig\conditional-naming-service\prepend-hipster-shop-name.json
+2021-02-24 00:12:34 DEBUG 			Created new object for Prepend Hipster Shop Name to Service (ac7375f8-05a6-4722-99eb-12a42ca06869)
+2021-02-24 00:12:34 DEBUG 		Applying config projects\baseconfig\conditional-naming-processgroup\prepend-hipster-shop-name.json
+2021-02-24 00:12:34 DEBUG 			Created new object for Prepend Hipster Shop Name to PG (9f4f172a-449a-4c0d-8d40-21e56ccae7d3)
+2021-02-24 00:12:34 DEBUG 		Applying config projects\baseconfig\auto-tag\lh-hipster-shop-tag.json
+2021-02-24 00:12:34 DEBUG 			Created new object for lh-hipster-shop (6a9ff049-314b-4d78-b250-0936ec476326)
+2021-02-24 00:12:34 DEBUG 		Applying config projects\baseconfig\app-detection-rule\rule.json
+2021-02-24 00:12:34 DEBUG 			Created new object for LH Hipster Shop (fb925f36-e763-484e-808b-ba5a46e460c2)
+2021-02-24 00:12:34 INFO  Deployment finished without errors
