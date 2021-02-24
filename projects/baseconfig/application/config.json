@@ -38,7 +38,7 @@
   },
   "monitoringSettings": {
     "fetchRequests": false,
-    "xmlHttpRequest": false,
+    "xmlHttpRequest": true,
     "javaScriptFrameworkSupport": {
       "angular": false,
       "dojo": false,
@@ -64,7 +64,13 @@
         "temporaryActionTotalTimeout": 100
       },
       "visuallyCompleteAndSpeedIndex": true,
-      "visuallyComplete2Settings": null
+      "visuallyComplete2Settings": {
+        "imageUrlBlacklist": "",
+        "mutationBlacklist": "",
+        "mutationTimeout": 50,
+        "inactivityTimeout": 1000,
+        "threshold": 50
+      }
     },
     "excludeXhrRegex": "",
     "correlationHeaderInclusionRegex": "",
@@ -114,6 +120,8 @@
       }
     }
   },
+  "userTags": [],
+  "userActionAndSessionProperties": [],
   "userActionNamingSettings": {
     "placeholders": [],
     "loadActionNamingRules": [],
@@ -124,5 +132,18 @@
     "splitUserActionsByDomain": true
   },
   "metaDataCaptureSettings": [],
-  "conversionGoals": []
+  "conversionGoals": [
+    {
+      "name": "Checkout Completed",
+      "id": "46f3543d-29c0-4bb6-8e41-97c54d5db9a4",
+      "type": "UserAction",
+      "userActionDetails": {
+        "value": "/cart/checkout",
+        "caseSensitive": false,
+        "matchType": "Contains",
+        "matchEntity": "PageUrl",
+        "actionType": "Load"
+      }
+    }
+  ]
 }
